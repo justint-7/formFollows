@@ -1,0 +1,14 @@
+.container-fluid{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.row{
+  width:100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.col{
+  /* padding: 0; */
+}
