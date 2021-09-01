@@ -44,7 +44,7 @@
 }
 
 .artwork-section {
-  height: 100%;
+  height: 95vh;
   max-height: 950px;
   max-width: 950px;
   width: 100%;
@@ -168,7 +168,7 @@ canvas{
   max-width: 700px; 
   max-height: 900px;
   margin: 0 auto;
-  max-height: 85vh;
+  max-height: 75vh;
   height: 700px;
 }
 
@@ -195,8 +195,6 @@ text-align: center;
   .formFollowsLabel{
     font-size: 4rem;
   }
-
-
 }
 
 @media screen and (max-width:760px) {
@@ -234,4 +232,27 @@ text-align: center;
   }
   
 }
+
+@media screen and (max-height:900px) {
+
+  .formFollowsLabel{
+    font-size: 4rem;
+  }
+  .form-input-container{
+    margin-top: 2.5%;
+  }
+}
+
+
+@media screen and (max-height:650px) {
+
+  .formFollowsLabel{
+    font-size: 3rem;
+  }
+  .form-input-container{
+    margin-top: 1%;
+  }
+}
+
+
 
