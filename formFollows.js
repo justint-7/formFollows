@@ -3,7 +3,7 @@ const ctx=canvas.getContext('2d');
 let canvasContainer = document.getElementById("canvasContainer");
 canvas.width = canvasContainer.offsetWidth;
 canvas.height= canvasContainer.offsetHeight;
-
+input = document.getElementById("formFollowsInput");
 let userInputed = false;
 
 let canvasStyle = canvasContainer.currentStyle || window.getComputedStyle(canvasContainer);
@@ -244,7 +244,7 @@ function addEventListeners(){
         active = false;
     })
 
-     input = document.getElementById("formFollowsInput");
+
      
 
      input.addEventListener('input',()=>{
@@ -341,7 +341,6 @@ function fontChange (){
         ctx.font= '16px Verdana';
         wrapX= 65;
     }
-
 }
 
 
