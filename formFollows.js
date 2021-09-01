@@ -290,7 +290,7 @@ function addEventListeners(){
 }
 
 function fontChange (){
-    if (canvasContainer.offsetWidth >= 455){
+    if (canvasContainer.offsetWidth >= 600){
         ctx.font= '16px Verdana';
         wrapX= 70;
     }
@@ -330,7 +330,23 @@ function fontChange (){
         ctx.font= '15px Verdana';
         maxWidth= 90;
         wrapX= 43;
+    }else if (canvasContainer.offsetWidth<500){
+        ctx.font= '16px Verdana';
+        wrapX= 50;
     }
+    else if (canvasContainer.offsetWidth<550){
+        ctx.font= '16px Verdana';
+        wrapX= 55;
+    }else if (canvasContainer.offsetWidth<600){
+        ctx.font= '16px Verdana';
+        wrapX= 60;
+    }
+    else if (canvasContainer.offsetWidth<650){
+        ctx.font= '16px Verdana';
+        wrapX= 65;
+    }
+
+
 
 }
 

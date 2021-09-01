@@ -190,7 +190,7 @@ text-align: center;
 }
 
 
-@media screen and (max-width:905px) {
+@media screen and (max-width:915px) {
 
   .formFollowsLabel{
     font-size: 4rem;
@@ -199,7 +199,7 @@ text-align: center;
 
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:760px) {
 
   .formFollowsLabel{
     font-size: 3rem;
