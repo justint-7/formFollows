@@ -290,21 +290,18 @@ function addEventListeners(){
 }
 
 function fontChange (){
-    if (canvasContainer.offsetWidth >= 600){
+    if (canvasContainer.offsetWidth >= 650){
         ctx.font= '16px Verdana';
-        wrapX= 70;
-    }
-    else if (canvasContainer.offsetWidth<290){
+        wrapX= 66;
+    }else if (canvasContainer.offsetWidth<290){
         ctx.font= '8px Verdana';
-        maxWidth= 45;
+        maxWidth= 40;
         wrapX= 24;
-    }
-    else if (canvasContainer.offsetWidth<308){
+    }else if (canvasContainer.offsetWidth<308){
         ctx.font= '8px Verdana';
         maxWidth= 45;
         wrapX= 27;
-    }
-    else if (canvasContainer.offsetWidth<316){
+    }else if (canvasContainer.offsetWidth<316){
         ctx.font= '10px Verdana';
         maxWidth= 60;
         wrapX= 31;
@@ -313,22 +310,21 @@ function fontChange (){
         ctx.font= '11px Verdana';
         maxWidth= 65;
         wrapX= 31;
-    }
-    else if (canvasContainer.offsetWidth<375){
+    }else if (canvasContainer.offsetWidth<375){
         ctx.font= '12px Verdana';
-        maxWidth= 80;
+        maxWidth= 70;
         wrapX= 35;
     }else if (canvasContainer.offsetWidth<400){
         ctx.font= '13px Verdana';
-        maxWidth= 80;
+        maxWidth= 75;
         wrapX= 37;
     }else if (canvasContainer.offsetWidth<425){
         ctx.font= '14px Verdana';
-        maxWidth= 90;
+        maxWidth= 75;
         wrapX= 39;
     }else if (canvasContainer.offsetWidth<455){
         ctx.font= '15px Verdana';
-        maxWidth= 90;
+        maxWidth= 80;
         wrapX= 43;
     }else if (canvasContainer.offsetWidth<500){
         ctx.font= '16px Verdana';
@@ -345,8 +341,6 @@ function fontChange (){
         ctx.font= '16px Verdana';
         wrapX= 65;
     }
-
-
 
 }
 
