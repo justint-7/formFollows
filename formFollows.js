@@ -87,7 +87,7 @@ function wrapText(context, text, x, wrapY, maxWidth, lineHeight) {
   let lineHeight = 20;
   let maxWidth= 95;
   let wrapX = 47;
-  let wrapY = 20
+  let wrapY = 30
 
   ctx.textAlign = 'center';
 ctx.fillStyle= 'rgb(255, 165, 0)';
@@ -292,6 +292,7 @@ function addEventListeners(){
 function fontChange (){
     if (canvasContainer.offsetWidth >= 455){
         ctx.font= '16px Verdana';
+        wrapX= 70;
     }
     else if (canvasContainer.offsetWidth<290){
         ctx.font= '8px Verdana';

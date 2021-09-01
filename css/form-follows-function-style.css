@@ -45,8 +45,8 @@
 
 .artwork-section {
   height: 100%;
-  max-height: 600px;
-  max-width: 600px;
+  max-height: 950px;
+  max-width: 950px;
   width: 100%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   padding: 1vw;
@@ -142,6 +142,11 @@
 }
 
 
+
+
+
+
+
 canvas{
   position: absolute;
   top:0;
@@ -160,10 +165,11 @@ canvas{
   position: relative;
   overflow: hidden;
   background: white;
-  max-width: 500px; 
-  width: 100%;
+  max-width: 700px; 
+  max-height: 900px;
   margin: 0 auto;
-  height: 500px;
+  max-height: 85vh;
+  height: 700px;
 }
 
 label,
@@ -172,4 +178,60 @@ input{
   margin: 0 auto;
 }
 
+.formFollowsLabel{
+  font-size: 5rem;
+}
+
+#formFollowsInput{
+height: 3rem;
+width: 50%;
+font-size: 2rem;
+text-align: center;
+}
+
+
+@media screen and (max-width:905px) {
+
+  .formFollowsLabel{
+    font-size: 4rem;
+  }
+
+
+}
+
+@media screen and (max-width:750px) {
+
+  .formFollowsLabel{
+    font-size: 3rem;
+  }
+  
+}
+@media screen and (max-width:515px) {
+
+  .formFollowsLabel{
+    font-size: 2.5rem;
+  }
+  #formFollowsInput{
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media screen and (max-width:430px) {
+
+  .formFollowsLabel{
+    font-size: 2rem;
+  }
+  
+}
+
+@media screen and (max-width:340px) {
+
+  .formFollowsLabel{
+    height: 1.75rem;
+    font-size: 1.25rem;
+  }
+  
+}
 
